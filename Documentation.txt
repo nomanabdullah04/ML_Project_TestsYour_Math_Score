@@ -1,0 +1,5 @@
+Step 1:
+  1.Set up the github {Repository}
+  2.New Environment
+  3.setup.
+  4.requrement.txt
