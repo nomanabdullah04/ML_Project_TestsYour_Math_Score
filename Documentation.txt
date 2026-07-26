@@ -3,3 +3,5 @@ Step 1:
   2.New Environment
   3.setup.
   4.requrement.txt
+Step 2:
+   1.Src folder and build the package
