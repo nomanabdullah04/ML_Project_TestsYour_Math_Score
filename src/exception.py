@@ -14,10 +14,10 @@ class CustomException(Exception):
 
     def __str__(self):
         return self.error_message
-
-try:
+if __name__ == "__main__":
+    try:
     # Example code that may raise an exception
-    x = 1 / 0
-except Exception as e:
-    logging.error("Division by zero error occurred.")
+     x = 1 / 0
+    except Exception as e:
+     logging.error("Division by zero error occurred.")
     raise CustomException(e, sys)
